@@ -1,7 +1,7 @@
 #include "MotorControl.h"
 
-Motor motorLeft(3, 4, 5); //B
-Motor motorRight(10, 8, 9); //A
+Motor motorLeft(10, 8, 9); //A
+Motor motorRight(3, 4, 5); //B
 
 void setup() {
   motorLeft.forward();
