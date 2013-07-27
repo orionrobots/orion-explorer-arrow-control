@@ -1,4 +1,5 @@
 orion-explorer-arrow-control
 ============================
 
-Using a PC keyboard to take control and drive an Orion Explorer 1 robot.
+This is a set of Arduino and Processing sketches to drive an Orionrobots Explorer 1 Robot with your keyboard on a PC.
+You can read the full tutorial at http://orionrobots.co.uk/explorer_arrow_control.html
