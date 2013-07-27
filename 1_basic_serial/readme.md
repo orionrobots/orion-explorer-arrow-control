@@ -1,1 +1,1 @@
-This is the first phase of serial control. 
+This is the first phase of serial control. The robot will drive forward as long as there is any serial data.
