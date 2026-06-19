@@ -3,8 +3,7 @@ set -e
 # Arduino build
 
 if [ "$1" == "--in-vagrant" ]; then
-	cp -r /vagrant/arduino_hello_serial /home/vagrant/arduino_hello_serial
-	chown -r vagrant /home/vagrant/arduino_hello_serial
+	sudo -u vagrant git clone /vagrant src
 fi
 
 platformio install atmelavr
