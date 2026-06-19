@@ -1,0 +1,14 @@
+before_install:
+  - "chmod +x *.sh"
+  - "sudo ./build-bootstrap.sh"
+  - "./non-root-bootstrap.sh"
+script: 
+  - "./build.sh"
+deploy:
+  provider: releases
+  file:
+   - "*.hex"
+  skip_cleanup: true
+  api_key: $auth
+  on:
+    tags: true  
